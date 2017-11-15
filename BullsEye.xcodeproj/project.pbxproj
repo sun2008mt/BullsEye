@@ -12,6 +12,9 @@
 		496016AC1FBBCCBC00BC2B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496016AA1FBBCCBC00BC2B72 /* Main.storyboard */; };
 		496016AE1FBBCCBC00BC2B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 496016AD1FBBCCBC00BC2B72 /* Assets.xcassets */; };
 		496016B11FBBCCBC00BC2B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 496016AF1FBBCCBC00BC2B72 /* LaunchScreen.storyboard */; };
+		496016B91FBBEB6800BC2B72 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496016B81FBBEB6800BC2B72 /* AboutViewController.swift */; };
+		496016FF1FBC1BB000BC2B72 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 496016FE1FBC1BB000BC2B72 /* BullsEye.html */; };
+		497EF4571FBC2A21005718AE /* bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 497EF4561FBC2A21005718AE /* bgmusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		496016AD1FBBCCBC00BC2B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		496016B01FBBCCBC00BC2B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		496016B21FBBCCBC00BC2B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		496016B81FBBEB6800BC2B72 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		496016FE1FBC1BB000BC2B72 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		497EF4561FBC2A21005718AE /* bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgmusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		496016A51FBBCCBC00BC2B72 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				497EF4561FBC2A21005718AE /* bgmusic.mp3 */,
+				496016FE1FBC1BB000BC2B72 /* BullsEye.html */,
 				496016A61FBBCCBC00BC2B72 /* AppDelegate.swift */,
 				496016A81FBBCCBC00BC2B72 /* ViewController.swift */,
+				496016B81FBBEB6800BC2B72 /* AboutViewController.swift */,
 				496016AA1FBBCCBC00BC2B72 /* Main.storyboard */,
 				496016AD1FBBCCBC00BC2B72 /* Assets.xcassets */,
 				496016AF1FBBCCBC00BC2B72 /* LaunchScreen.storyboard */,
@@ -123,7 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497EF4571FBC2A21005718AE /* bgmusic.mp3 in Resources */,
 				496016B11FBBCCBC00BC2B72 /* LaunchScreen.storyboard in Resources */,
+				496016FF1FBC1BB000BC2B72 /* BullsEye.html in Resources */,
 				496016AE1FBBCCBC00BC2B72 /* Assets.xcassets in Resources */,
 				496016AC1FBBCCBC00BC2B72 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496016B91FBBEB6800BC2B72 /* AboutViewController.swift in Sources */,
 				496016A91FBBCCBC00BC2B72 /* ViewController.swift in Sources */,
 				496016A71FBBCCBC00BC2B72 /* AppDelegate.swift in Sources */,
 			);
